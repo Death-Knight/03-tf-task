@@ -1,0 +1,16 @@
+.collapsible {
+  color: red;
+  background-color: white;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
